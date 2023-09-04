@@ -1,0 +1,211 @@
+body {
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	background-color: white;
+	box-sizing: border-box;
+	margin: 80px auto;
+	padding: 0;
+	max-width: 1280px;
+	/* border: 2px solid violet; */
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+	padding: 5px 10px;
+}
+
+img.logo {
+	/* cursor: pointer; */
+	max-width: 200px;
+}
+
+img.author-image {
+	width: 350px;
+}
+
+img.book-image {
+	width: 400px;
+}
+
+header nav ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style-type: none;
+}
+
+header nav ul li a {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0.8em;
+	padding: 0.2em 0.1em;
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+	/* border: 2px solid red; */
+}
+
+header nav ul li a.active {
+	color: #ed4212;
+	border-bottom: 2px solid #ed4212;
+}
+
+header nav ul li a:hover {
+	color: green;
+	border-bottom: none;
+}
+
+button,
+a.buy-the-book,
+.send-message,
+a.button-left {
+	font-size: 12px;
+	color: white;
+	background-color: #ed4212;
+	padding: 0.8em 2em;
+	border: none;
+	outline: none;
+	text-decoration: none;
+	border-radius: 40px;
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+
+.buttons-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	margin: 30px 0;
+}
+
+main {
+	min-height: 1vh;
+}
+
+section {
+	display: flex;
+	justify-content: center;
+	/* flex-wrap: wrap; */
+	padding: 20px;
+	margin: 40px auto;
+	/* border: 2px solid blue; */
+}
+
+.left-side {
+	padding-right: 250px;
+}
+
+main h1 {
+	font-size: 29.3px;
+	color: #ed4212;
+}
+main p {
+	font-size: 18.1px;
+	color: black;
+}
+main p.section-1 {
+	font-weight: bold;
+}
+
+button.get-started {
+	margin: 40px 150px;
+}
+
+button.button-left {
+	margin: 30px 0;
+}
+
+.customers {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+h2 {
+	font-size: 30px;
+	color: #ed4212;
+	margin: 0 auto;
+	margin-bottom: 1em;
+}
+
+h4 {
+	color: #ed4212;
+	margin: 0;
+}
+
+.customer-cards-container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.customer-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 2.2em;
+	/* border: 2px solid red; */
+}
+
+.customer-card P {
+	text-align: center;
+}
+
+img.customer-image {
+	width: 250px;
+}
+
+footer {
+	text-align: center;
+	margin-top: 20px;
+	padding: 1em;
+	background-color: #f7a088;
+	/* border: 2px solid green; */
+}
+
+.section-page {
+	padding: 1rem 4rem;
+}
+
+.section-page .left-side {
+	padding-right: 80px;
+}
+
+.section-page p {
+	text-align: justify;
+	margin-bottom: 2em;
+}
+
+footer input {
+	width: 70%;
+	height: 30px;
+	margin-bottom: 1em;
+	border: none;
+	outline: none;
+	border-radius: 30px;
+}
+
+footer nav ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style-type: none;
+}
+
+footer nav ul a {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0.8em;
+	padding: 0.2em 0.1em;
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+footer nav ul a:hover {
+	color: #ed4212;
+}

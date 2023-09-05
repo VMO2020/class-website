@@ -17,17 +17,26 @@ header {
 	padding: 5px 10px;
 }
 
+.mobile-menu-icon {
+	display: none;
+}
+
 img.logo {
-	/* cursor: pointer; */
 	max-width: 200px;
+}
+
+img.menu-image {
+	width: 30px;
 }
 
 img.author-image {
 	width: 350px;
+	max-width: 90%;
 }
 
 img.book-image {
 	width: 400px;
+	max-width: 90%;
 }
 
 header nav ul {
@@ -66,6 +75,7 @@ a.button-left {
 	color: white;
 	background-color: #ed4212;
 	padding: 0.8em 2em;
+	margin-top: 2em;
 	border: none;
 	outline: none;
 	text-decoration: none;
@@ -89,7 +99,6 @@ main {
 section {
 	display: flex;
 	justify-content: center;
-	/* flex-wrap: wrap; */
 	padding: 20px;
 	margin: 40px auto;
 	/* border: 2px solid blue; */
@@ -106,13 +115,11 @@ main h1 {
 main p {
 	font-size: 18.1px;
 	color: black;
+	margin-bottom: 2em;
 }
 main p.section-1 {
 	font-weight: bold;
-}
-
-button.get-started {
-	margin: 40px 150px;
+	margin-bottom: 3em;
 }
 
 button.button-left {
@@ -163,6 +170,7 @@ footer {
 	text-align: center;
 	margin-top: 20px;
 	padding: 1em;
+
 	background-color: #f7a088;
 	/* border: 2px solid green; */
 }
@@ -248,4 +256,105 @@ footer nav ul a {
 
 footer nav ul a:hover {
 	color: #ed4212;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+	body {
+		margin: 0 auto;
+	}
+
+	header {
+		justify-content: space-between;
+		margin: 0;
+		margin-bottom: 30px;
+		padding: 5px 25px;
+		/* border: 2px solid red; */
+	}
+
+	img.logo {
+		max-width: 100px;
+	}
+
+	.mobile-menu-icon {
+		display: block;
+	}
+
+	.nav-menu,
+	.buy-the-book,
+	.search-image {
+		display: none;
+	}
+
+	h2 {
+		font-size: 20px;
+		margin: 10px 0;
+	}
+
+	p {
+		font-size: 10px;
+	}
+
+	section {
+		flex-wrap: wrap;
+	}
+
+	.section-page {
+		padding: 1em;
+	}
+
+	.section-page .left-side {
+		padding: 0;
+	}
+
+	button,
+	button.get-started {
+		margin: 2em 0;
+	}
+
+	.input-container input[type='text'],
+	.input-container textarea {
+		width: 120px;
+	}
+
+	.input-container label {
+		width: 120px;
+	}
+
+	.left-side,
+	.right-side {
+		max-width: 90%;
+		padding: 0;
+	}
+
+	.left-side img,
+	.right-side img {
+		margin: 1rem 0;
+		max-width: 90%;
+	}
+
+	.left-side h1 {
+		font-size: 20px;
+	}
+
+	.left-side p {
+		font-size: 12px;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		/* border: 2px solid red; */
+	}
+
+	footer {
+		padding: 5px;
+	}
+
+	footer nav ul a {
+		font-size: 9px;
+		margin: 0 0.2em;
+		padding: 0;
+		/* border: 2px solid red; */
+	}
 }

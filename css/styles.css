@@ -180,6 +180,46 @@ footer {
 	margin-bottom: 2em;
 }
 
+.contact-form {
+	width: 100%;
+	margin: 0 auto;
+	text-align: left;
+	margin: 4rem 0;
+	/* border: 2px solid red; */
+}
+
+.input-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.input-container label {
+	font-weight: bold;
+	width: 150px;
+	text-align: left;
+}
+
+.input-container input[type='text'],
+.input-container textarea {
+	width: 300px;
+	padding: 10px;
+	background-color: lightgray;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	text-align: center;
+}
+
+::placeholder {
+	color: white;
+}
+
+textarea::placeholder {
+	color: white;
+}
+
 footer input {
 	width: 70%;
 	height: 30px;

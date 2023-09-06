@@ -8,7 +8,7 @@
 
 [Mobile Prototype link](https://www.canva.com/design/DAFs70JqJmU/-dMbhZq-IKsUA5AIMWQhcA/edit?utm_content=DAFs70JqJmU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-## Mobile HTML & CSS Website
+## Desktop & Mobile HTML, CSS & Javascript Website (responsive)
 
 [https://vmo2020.github.io/class-website/](https://vmo2020.github.io/class-website/)
 

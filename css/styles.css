@@ -264,6 +264,7 @@ footer nav ul a:hover {
 	}
 
 	header {
+		position: relative;
 		justify-content: space-between;
 		margin: 0;
 		margin-bottom: 30px;
@@ -283,6 +284,24 @@ footer nav ul a:hover {
 	.buy-the-book,
 	.search-image {
 		display: none;
+	}
+
+	.nav-menu.active {
+		position: absolute;
+		top: 45px;
+		right: 10px;
+		display: block;
+		padding: 10px;
+		background-color: white;
+		border: 2px solid red;
+	}
+
+	.nav-menu.active ul {
+		display: block;
+	}
+
+	.nav-menu.active a {
+		font-size: 10px;
 	}
 
 	h2 {

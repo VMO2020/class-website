@@ -289,7 +289,7 @@ footer nav ul a:hover {
 	.nav-menu.active {
 		position: absolute;
 		top: 45px;
-		right: 10px;
+		right: 30px;
 		display: block;
 		padding: 10px;
 		background-color: white;

@@ -39,9 +39,12 @@ img.author-image {
 	max-width: 90%;
 }
 
+img.customer-image {
+	width: 250px;
+}
+
 img.book-image {
 	width: 400px;
-	max-width: 90%;
 }
 
 header nav ul {
@@ -174,10 +177,6 @@ h4 {
 
 .customer-card P {
 	text-align: center;
-}
-
-img.customer-image {
-	width: 250px;
 }
 
 .section-page {
@@ -360,19 +359,23 @@ footer nav ul a:hover {
 		width: 100%;
 	}
 
-	.input-container input[type='text'],
-	.input-container textarea {
-		width: 120px;
+	.contact-form {
+		padding: 0;
 	}
 
 	.input-container label {
 		width: 120px;
 	}
 
+	.input-container input[type='text'],
+	.input-container textarea {
+		width: 180px;
+	}
+
 	.left-side,
 	.right-side {
 		max-width: 90%;
-		padding: 0;
+		padding: 20px;
 	}
 
 	.left-side img,

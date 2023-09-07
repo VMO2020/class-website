@@ -28,6 +28,11 @@ img.menu-image {
 	width: 30px;
 }
 
+img.search-image {
+	width: 30px;
+	margin-top: -15px;
+}
+
 img.author-image {
 	width: 350px;
 	max-width: 90%;
@@ -87,6 +92,7 @@ a.button-left {
 
 a.buy-the-book {
 	font-size: 12px;
+	margin: 0;
 }
 
 .buttons-container {
@@ -172,15 +178,6 @@ img.customer-image {
 	width: 250px;
 }
 
-footer {
-	text-align: center;
-	margin-top: 20px;
-	padding: 1em;
-
-	background-color: #f7a088;
-	/* border: 2px solid green; */
-}
-
 .section-page {
 	padding: 1rem 4rem;
 }
@@ -232,6 +229,15 @@ footer {
 
 textarea::placeholder {
 	color: white;
+}
+
+footer {
+	text-align: center;
+	margin-top: 20px;
+	padding: 1em;
+
+	background-color: #f7a088;
+	/* border: 2px solid green; */
 }
 
 footer input {

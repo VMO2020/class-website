@@ -72,7 +72,7 @@ button,
 a.buy-the-book,
 .send-message,
 a.button-left {
-	font-size: 12px;
+	font-size: 16px;
 	color: white;
 	background-color: #ed4212;
 	padding: 0.8em 2em;
@@ -83,6 +83,10 @@ a.button-left {
 	border-radius: 40px;
 	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
 	cursor: pointer;
+}
+
+a.buy-the-book {
+	font-size: 12px;
 }
 
 .buttons-container {
@@ -326,6 +330,13 @@ footer nav ul a:hover {
 
 	.section-page .left-side {
 		padding: 0;
+	}
+
+	button,
+	a.buy-the-book,
+	.send-message,
+	a.button-left {
+		font-size: 12px;
 	}
 
 	button,

@@ -241,13 +241,26 @@ footer {
 	/* border: 2px solid green; */
 }
 
+footer form.subscribe-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* border: 2px solid black; */
+}
+
 footer input {
 	width: 70%;
 	height: 30px;
-	margin-bottom: 1em;
+	margin: 0.5em 0;
 	border: none;
 	outline: none;
 	border-radius: 30px;
+}
+
+footer input::placeholder {
+	color: black;
+	padding-left: 1em;
 }
 
 footer nav ul {
@@ -269,6 +282,10 @@ footer nav ul a {
 
 footer nav ul a:hover {
 	color: #ed4212;
+}
+
+footer .btn-subscribe {
+	margin: 1em 0;
 }
 
 /* Mobile styles */

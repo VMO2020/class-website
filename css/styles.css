@@ -288,6 +288,7 @@ footer nav ul a:hover {
 
 	img.logo {
 		max-width: 100px;
+		cursor: pointer;
 	}
 
 	.mobile-menu-icon {

@@ -52,21 +52,46 @@
 				<form action="mailto:robert.abbah@netcomtraining.co.uk">
 					<div class="input-container">
 						<label for="first-name">FIRST NAME</label>
-						<input type="text" id="first-name" placeholder="Your first name" />
+						<input
+							type="text"
+							id="first-name"
+							name="first_name"
+							placeholder="Your first name"
+							required
+						/>
 					</div>
 					<div class="input-container">
 						<label for="last-name">LAST NAME</label>
-						<input type="text" id="last-name" placeholder="Your last name" />
+						<input
+							type="text"
+							id="last-name"
+							name="last_name"
+							placeholder="Your last name"
+							required
+						/>
 					</div>
 					<div class="input-container">
 						<label for="email">EMAIL ADDRESS</label>
-						<input type="text" id="email" placeholder="Your email address" />
+						<input
+							type="text"
+							id="email"
+							name="email"
+							placeholder="Your email address"
+							required
+						/>
 					</div>
 					<div class="input-container">
 						<label for="message">MESSAGE</label>
-						<textarea id="message" placeholder="Your message"></textarea>
+						<textarea
+							name="message"
+							id="message"
+							placeholder="Your message"
+							required
+						></textarea>
 					</div>
-					<button type="submit" class="btn-form-submit">Submit</button>
+					<button type="submit" title="Submit the form" class="btn-form-submit">
+						Submit
+					</button>
 				</form>
 			</section>
 		</main>

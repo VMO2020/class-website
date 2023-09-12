@@ -253,12 +253,14 @@ footer form.subscribe-form {
 }
 
 footer input {
-	width: 70%;
+	width: 60%;
 	height: 30px;
 	margin: 0.5em 0;
+	padding-left: 20px;
 	border: none;
 	outline: none;
 	border-radius: 30px;
+	text-align: center;
 }
 
 footer input::placeholder {

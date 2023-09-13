@@ -193,7 +193,7 @@ h4 {
 }
 
 .contact-container {
-	display: inline-flex;
+	display: flex;
 	justify-content: space-between;
 	width: 100%;
 	/* flex-wrap: wrap; */

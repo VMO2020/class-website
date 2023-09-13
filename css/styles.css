@@ -192,11 +192,25 @@ h4 {
 	margin-bottom: 2em;
 }
 
+.contact-container {
+	display: inline-flex;
+	justify-content: space-between;
+	width: 100%;
+	/* flex-wrap: wrap; */
+	/* border: 2px solid blue; */
+}
+
 .contact-form {
 	width: 100%;
-	/* max-width: 600px; */
+	max-width: 600px;
 	text-align: left;
 	margin: 4rem 0;
+	/* border: 2px solid red; */
+}
+
+.contact-map {
+	width: 100%;
+	max-width: 600px;
 	/* border: 2px solid red; */
 }
 
@@ -388,6 +402,10 @@ footer .btn-subscribe {
 
 	.customer-card {
 		width: 100%;
+	}
+
+	.contact-container {
+		flex-wrap: wrap;
 	}
 
 	.contact-form {

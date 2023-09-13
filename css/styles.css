@@ -194,6 +194,7 @@ h4 {
 
 .contact-form {
 	width: 100%;
+	/* max-width: 600px; */
 	text-align: left;
 	margin: 4rem 0;
 	/* border: 2px solid red; */
@@ -203,7 +204,8 @@ h4 {
 	width: 100%;
 }
 
-.input-container {
+.input-container,
+select {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -212,12 +214,13 @@ h4 {
 
 .input-container label {
 	font-weight: bold;
-	width: 150px;
+	width: 200px;
 	text-align: left;
 }
 
 .input-container input[type='text'],
-.input-container textarea {
+.input-container textarea,
+select {
 	width: 300px;
 	padding: 10px;
 	background-color: lightgray;
@@ -225,6 +228,11 @@ h4 {
 	border-radius: 5px;
 	font-size: 16px;
 	text-align: center;
+}
+
+select {
+	width: 320px;
+	color: white;
 }
 
 ::placeholder {
@@ -393,6 +401,10 @@ footer .btn-subscribe {
 	.input-container input[type='text'],
 	.input-container textarea {
 		width: 180px;
+	}
+
+	select {
+		width: 200px;
 	}
 
 	.left-side,
